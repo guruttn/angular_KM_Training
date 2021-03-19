@@ -1,26 +1,35 @@
-# Session : Component lifecycle Assignement
+# Session : Routing (client side) Assignement
 
-* Write a component and console log order In which all lifecyle events occur.
+* Create Routes with dashboard  and create Product.
 
-<img src="https://github.com/DarvShubhamS/angular_bootcamp/blob/lifecycle/src/assets/ss/ss3.JPG" />
+* When the Application starts default url should be localhost:4200/dashboard, and  show Welcome Page with create Product button. 
 
-* Pass data between two components using @Input() and implement the preferred lifecyle method for detecting changes.
+* Add a routerLink to create a Product button, after creating the product navigate back to dashboard.
 
-  We Use **ngOnChanges Life Cycle** Method For Detecting Changes whenever our @Input bound Properties are changed.
+## NAVBAR COMPONENT FILES
 
-## Solution Files
+https://github.com/DarvShubhamS/angular_bootcamp/tree/Routing/src/app/navbar
 
-### TS FILE
+## DASHBOARD COMPONENT FILES
 
-https://github.com/DarvShubhamS/angular_bootcamp/blob/lifecycle/src/app/learning-lifecycle-hooks/learning-lifecycle-hooks.component.ts
+https://github.com/DarvShubhamS/angular_bootcamp/tree/Routing/src/app/dashboard
 
-### HTML file
+## PRODUCT COMPONENT FILE
 
-https://github.com/DarvShubhamS/angular_bootcamp/blob/lifecycle/src/app/learning-lifecycle-hooks/learning-lifecycle-hooks.component.html
+https://github.com/DarvShubhamS/angular_bootcamp/tree/Routing/src/app/product
 
+## ROUTING DEFINED IN 
 
-### ROOT PARENT FILES
+https://github.com/DarvShubhamS/angular_bootcamp/blob/Routing/src/app/app.module.ts
 
-https://github.com/DarvShubhamS/angular_bootcamp/blob/lifecycle/src/app/app.component.html
+## CREATE PRODUCT SERVICE
 
-https://github.com/DarvShubhamS/angular_bootcamp/blob/lifecycle/src/app/app.component.ts
+https://github.com/DarvShubhamS/angular_bootcamp/blob/Routing/src/app/product.service.ts
+
+## SCREENSHOTS 
+
+<img src="https://github.com/DarvShubhamS/angular_bootcamp/blob/Routing/src/assets/ss/ss1.JPG" />
+
+<img src="https://github.com/DarvShubhamS/angular_bootcamp/blob/Routing/src/assets/ss/ss2.JPG" />
+
+<img src="https://github.com/DarvShubhamS/angular_bootcamp/blob/Routing/src/assets/ss/ss3.JPG" />
